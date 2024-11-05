@@ -1,0 +1,201 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: rgb(16, 0, 87);
+    color: #fff;
+    padding: 1px 0;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.item {
+    display: flex;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    gap: 0px; /* Espaço entre os artigos */
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.preco {
+    color: #870303;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(16, 0, 87);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+}
+
+.sobre{
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.foto{
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.primeira{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+
+.logo{
+    align-items: left;
+    width: 200px;
+    height: auto;
+    padding: 0px;
+    
+}
+
+nav{
+    text-align: right;
+}
+
+h1{
+    background-color: rgb(16, 0, 87);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/*imagens*/
+
+/* Estilo da barra lateral fixa */
+.sidebar {
+    position: fixed;
+    flex-grow: 1;
+    top: 135px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.filter-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do conteúdo principal */
+.content {
+    margin-left: 220px; /* Espaço para a sidebar */
+    padding: 20px;
+}
+
+.item {
+    padding: 15px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    
+    border-radius: 5px;
+    width: calc(100% - 40px);
+}
+
+.item.hidden {
+    display: none;
+}
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Certifica-se de que o cabeçalho fica acima dos outros elementos */
+    display: flex;
+    align-items: center;
+    padding: 1px ;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombras opcionais */
+}
+#inicio {
+    flex-grow: 1;
+    text-align: center;
+}
+.borda{
+    margin-bottom: 32px;
+}
+.cachorro4{
+    width: 30px;
+    height: 10px;
+}

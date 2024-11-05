@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petmatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="img/logo_faculdade2.png"/>
+        <nav id="inicio">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">sobre</a></li>
+                <li><a href="#adocao">adoção</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>login</h1>
+    </header>
+
+    <h1 id="adocao">Prontos para adoção</h1>
+    <section class="borda">
+    <div class="sidebar">
+        <h3>Filtrar por Categoria</h3>
+        <button class="filter-button" onclick="filterItems('all')">Todos</button>
+        <button class="filter-button" onclick="filterItems('cat1')">Gato</button>
+        <button class="filter-button" onclick="filterItems('cat2')">Cachorro</button>
+    </div>
+    </section>
+    
+    <div class="content" id="content">
+        <h2 class="cachorro">Cachorro</h2>
+        <section class="ordem">
+            <div class="item cat2">
+                <article class="produto">
+                    <img src="img/shih-tzu.jpg" alt="Produto 1">
+                    <h2>logan</h2>
+                    <h3>macho</h3>
+                </article>
+                <article class="produto">
+                    <img src="img/cachorro2.jpg" alt="Produto 2">
+                    <h2>chita</h2>
+                    <h3>femea</h3>
+                    <p class="preco"></p>
+                </article>
+                <article class="produto">
+                    <img src="img/cachorro3.jpg" alt="Produto 3">
+                    <h2>emy</h2>
+                    <h3>femea</h3>
+                </article>
+                <article class="produto">
+                    <img src="img/cachorro4.jpg" alt="Produto 4">
+                    <h2>paçoca</h2>
+                    <h3>macho</h3>
+                    <p class="preco"></p>
+                </article>
+        </div>
+        <div class="item cat2">
+            <article class="produto">
+                <img src="img/cachorro5.webp" alt="Produto 1">
+                <h2>leka</h2>
+                <h3>femea</h3>
+            </article>
+            <article class="produto">
+                <img src="img/cachorro6.webp" alt="Produto 2">
+                <h2>ellie</h2>
+                <p>femea</p>
+                <p class="preco"></p>
+            </article>
+            <article class="produto">
+                <img src="img/cachorro7.webp" alt="Produto 3">
+                <h2>Luka</h2>
+                <h3>macho</h3>
+            </article>
+            <article class="produto">
+                <img src="img/cachorro8.webp" alt="Produto 4">
+                <h2>davi</h2>
+                <h3>macho</h3>
+                <p class="preco"></p>
+            </article>
+            <!--  em cima categoria de cachorros -->
+            <!--  em cima categoria de cachorros -->
+            <!--  em cima categoria de cachorros -->
+    </div>
+    <section class="ordem">
+            <div class="item cat1">
+                <article class="produto">
+                    <img src="img/gato-laranja.jpg" alt="Produto 1">
+                    <h2>kimi</h2>
+                    <h3>macho</h3>
+                </article>
+                <article class="produto">
+                    <img src="img/gato1.webp" alt="Produto 2">
+                    <h2>rin</h2>
+                        <p>femea</p>
+                        <p class="preco"></p>
+                </article>
+                <article class="produto">
+                    <img src="img/gato2.webp" alt="Produto 3">
+                    <h2>len</h2>
+                        <h3>macho</h3>
+                </article>
+                <article class="produto">
+                    <img src="img/gato3.webp" alt="Produto 3">
+                    <h2>keko</h2>
+                        <h3>macho</h3>
+                </article>
+                
+        </section>
+        <section class="ordem">
+            <div class="item cat1">
+                <article class="produto">
+                    <img src="img/gato4.webp" alt="Produto 1">
+                    <h2>juninho</h2>
+                        <h3>macho</h3>
+                </article>
+                <article class="produto">
+                    <img src="img/gato5.webp" alt="Produto 2">
+                    <h2>gumy</h2>
+                        <p>femea</p>
+                </article>
+                <article class="produto">
+                    <img src="img/gato6.webp" alt="Produto 3">
+                    <h2>denki</h2>
+                        <h3>macho</h3>
+                </article>
+                <article class="produto">
+                    <img src="img/gato7.webp" alt="Produto 4">
+                    <h2>bolinha</h2>
+                        <p>femea</p>
+                    
+                </article>
+                
+        </section>
+        </section>
+            
+        </div>
+    </section>
+    <script src="script.js"></script>
+<!-- em cima a parte de dentro da categoria -->
+
+    <footer id="contato">
+        <img src="img/osso1.png"/>
+        <h1>Entre em contato</h1>
+        <p>telefone : (11)3284-0851</p>
+        <p>Email : petmatch@gmail.com </p>
+        <p>&copy; 2024 petmatch</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
